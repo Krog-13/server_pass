@@ -3,7 +3,7 @@ import datetime
 from src.app import application
 
 def func():
-    pass
+    now = datetime.datetime.now()
 
 if __name__ == '__main__':
     with make_server('', 5001, application) as httpd:
