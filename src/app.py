@@ -8,4 +8,4 @@ def application(env, start_response):
     return response(env, start_response)
 
 def func():
-    pass
+    dev = "dev commit"
