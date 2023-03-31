@@ -10,3 +10,4 @@ def application(env, start_response):
 def func():
     dev = "dev commit"
     dev2 = 'dev2 commit'
+    fix3 = 'fix3'
