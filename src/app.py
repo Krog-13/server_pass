@@ -1,5 +1,5 @@
 from werkzeug.wrappers import Request, Response
-
+import setuptools
 
 def application(env, start_response):
     request = Request(env)
